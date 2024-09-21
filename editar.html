@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Edicion Album</title>
+  <link rel="shortcut icon" href="logo-linkin-park.png" type="image/x-icon">
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-cover bg-center bg-no-repeat" style="background-image: url('fondi.gif');">
+    <div class="flex min-h-screen">
+        
+        <aside class="w-64 h-screen bg-gray-800 text-white">
+            <div class="p-4 text-2xl font-bold">LINKIN PARK</div>
+            <nav>
+              <ul>
+                <li class="p-4"><a href="#" class="hover:bg-gray-700 block">Ver Álbumes</a></li>
+                <li class="p-4"><a href="#" class="hover:bg-gray-700 block">Fechas de Tours</a></li>
+                <li class="p-4"><a href="#" class="hover:bg-gray-700 block">Agregar Canción</a></li>
+                <li class="p-4"><a href="#" class="hover:bg-gray-700 block">Cerrar Sesión</a></li>
+              </ul>
+            </nav>
+        </aside>
+        
+          <!-- Contenido Principal -->
+        <main>
+              <!-- Contenido Principal -->
+            <div class="flex-1 p-6">
+                <h1 class="text-white font-bold mb-4">Canciones del Album</h1>
+            
+                <!-- Formulario de Canciones -->
+                <form class="space-y-6">
+                  <div class="bg-white p-4 rounded-lg shadow-md">
+                    <div class="flex justify-between items-center">
+                      <div>
+                        <h2 class="text-xl font-semibold">Papercut</h2>
+                        <p class="text-gray-600">Duración: 3:12</p>
+                      </div>
+                      <div class="flex space-x-4">
+                        <a href="https://www.youtube.com/watch?v=vjVkXlxsO8Q&list=OLAK5uy_lSMQPNivp-Z7pyTLWNVS5Po6aXRFqYR7U" class="text-blue-500 hover:underline">
+                          <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" viewBox="0 0 20 20" fill="currentColor">
+                            <path d="M9 5a1 1 0 011.707-.707l4.586 4.586a1 1 0 010 1.414l-4.586 4.586A1 1 0 019 14V5z" />
+                          </svg>
+                        </a>
+                        <a href="url-eliminar-cancion" class="text-red-500 hover:underline">
+                          <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+                          </svg>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+            
+                  <div class="bg-white p-4 rounded-lg shadow-md">
+                    <div class="flex justify-between items-center">
+                      <div>
+                        <h2 class="text-xl font-semibold">ONE STEP CLOSER</h2>
+                        <p class="text-gray-600">Duración: 2:57</p>
+                      </div>
+                      <div class="flex space-x-4">
+                        <a href="https://www.youtube.com/watch?v=4qlCC1GOwFw&list=OLAK5uy_lSMQPNivp-Z7pyTLWNVS5Po6aXRFqYR7U&index=2" class="text-blue-500 hover:underline">
+                          <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" viewBox="0 0 20 20" fill="currentColor">
+                            <path d="M9 5a1 1 0 011.707-.707l4.586 4.586a1 1 0 010 1.414l-4.586 4.586A1 1 0 019 14V5z" />
+                          </svg>
+                        </a>
+                        <a href="url-eliminar-cancion-2" class="text-red-500 hover:underline">
+                          <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+                          </svg>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+            
+                  <!-- Repite esta estructura para cada canción -->
+                </form>
+            </div>
+        </main>
+    </div>
+
+  
+</body>
+</html>

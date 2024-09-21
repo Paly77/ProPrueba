@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOME</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="logo-linkin-park.png" type="image/x-icon">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+    
+<body  class="bg-cover bg-center bg-no-repeat" style="background-image: url('fondi.gif');">
+    <div class="flex min-h-screen">
+
+        <!-- Sidebar -->
+        <aside class="w-64 bg-gray-800 text-white">
+            <div class="p-4">
+                <ul class="space-y-4">
+                    <li>
+                        <a href="album.html" class="block hover:bg-gray-700 p-2 rounded">Agregar Álbum</a>
+                    </li>
+                    <li>
+                        <a href="tours.html" class="block hover:bg-gray-700 p-2 rounded">Ver Tours</a>
+                    </li>
+                    <li>
+                        <a href="#" class="block hover:bg-gray-700 p-2 rounded">Deslogueo</a>
+                    </li>
+                </ul>
+            </div>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="flex-1 p-8">
+            <!-- Botones en la esquina superior derecha -->
+            <div class="absolute top-4 right-4 flex space-x-2">
+                <button onclick="window.location.href='iniciarsesion.html'" class="bg-gray-500 hover:bg-gray-700 text-white font-bold py-2 px-4 rounded">
+                Iniciar sesión
+                </button>
+                <button onclick="window.location.href='registrar.html'" class="bg-gray-500 hover:bg-gray-700 text-white font-bold py-2 px-4 rounded">
+                Registrarse
+                </button>
+                
+            </div>
+
+            <h2 class="text-2xl font-bold mb-4">Linkin Park</h2>
+                <p class="mb-4">Es una banda estadounidense de rock alternativo formada en 1996 en Agoura Hills, California. Con un estilo que mezcla géneros como el rock, el metal, el rap y la electrónica, la banda alcanzó fama mundial con su álbum debut Hybrid Theory (2000), considerado uno de los más exitosos de la década. Canciones icónicas como "In the End" y "Crawling" establecieron su popularidad, y su capacidad de reinventarse les permitió mantenerse relevantes a lo largo de los años. Son reconocidos por su innovadora fusión de sonidos y letras introspectivas, abordando temas emocionales y personales.</p>
+            <h1 class="text-3xl font-bold mb-6">Álbumes</h1>
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+                <!-- Album Card -->
+                <div class="bg-white shadow-md rounded-lg overflow-hidden">
+                    <img src="hibry.jpeg" alt="Portada del Álbum" class="w-full h-48 object-cover">
+                    <div class="p-4">
+                        <h3 class="text-xl font-semibold">HYBRID THEORY</h3>
+                        <p class="text-gray-600">Año: 2000</p>
+                        <div class="flex justify-between mt-4">
+                            <button onclick="window.location.href='editar.html'" class="bg-yellow-500 hover:bg-yellow-600 text-white py-1 px-3 rounded">Editar</button>
+                            <button class="bg-red-500 hover:bg-red-600 text-white py-1 px-3 rounded">Eliminar</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Más Álbumes aquí -->
+                <!-- Album Card -->
+                <div class="bg-white shadow-md rounded-lg overflow-hidden">
+                    <img src="meteora.jpg" alt="Portada del Álbum" class="w-full h-48 object-cover">
+                    <div class="p-4">
+                        <h3 class="text-xl font-semibold">METEORA</h3>
+                        <p class="text-gray-600">Año: 2003</p>
+                        <div class="flex justify-between mt-4">
+                            <button class="bg-yellow-500 hover:bg-yellow-600 text-white py-1 px-3 rounded">Editar</button>
+                            <button class="bg-red-500 hover:bg-red-600 text-white py-1 px-3 rounded">Eliminar</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Album Card -->
+                <div class="bg-white shadow-md rounded-lg overflow-hidden">
+                    <img src="minutes.jpg" alt="Portada del Álbum" class="w-full h-48 object-cover">
+                    <div class="p-4">
+                        <h3 class="text-xl font-semibold">MINUTES to MIDNIGHT</h3>
+                        <p class="text-gray-600">Año: 2007</p>
+                        <div class="flex justify-between mt-4">
+                            <button class="bg-yellow-500 hover:bg-yellow-600 text-white py-1 px-3 rounded">Editar</button>
+                            <button class="bg-red-500 hover:bg-red-600 text-white py-1 px-3 rounded">Eliminar</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Album Card -->
+                <div class="bg-white shadow-md rounded-lg overflow-hidden">
+                    <img src="suns.jpeg" alt="Portada del Álbum" class="w-full h-48 object-cover">
+                    <div class="p-4">
+                        <h3 class="text-xl font-semibold">A THOUSAND SUNS</h3>
+                        <p class="text-gray-600">Año: 2010</p>
+                        <div class="flex justify-between mt-4">
+                            <button class="bg-yellow-500 hover:bg-yellow-600 text-white py-1 px-3 rounded">Editar</button>
+                            <button class="bg-red-500 hover:bg-red-600 text-white py-1 px-3 rounded">Eliminar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+</body>
+</html>
+
